@@ -35,8 +35,8 @@
             this.lbl_usuario = new System.Windows.Forms.Label();
             this.lbl_senha = new System.Windows.Forms.Label();
             this.lbl_cadastrar = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.picture_logo = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_logo)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_logar
@@ -97,24 +97,24 @@
             this.lbl_cadastrar.TabIndex = 5;
             this.lbl_cadastrar.Text = "Não Tem Login? Crie Agora";
             // 
-            // pictureBox1
+            // picture_logo
             // 
-            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(241, 27);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(357, 128);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.picture_logo.ErrorImage = ((System.Drawing.Image)(resources.GetObject("picture_logo.ErrorImage")));
+            this.picture_logo.Image = ((System.Drawing.Image)(resources.GetObject("picture_logo.Image")));
+            this.picture_logo.Location = new System.Drawing.Point(241, 27);
+            this.picture_logo.Name = "picture_logo";
+            this.picture_logo.Size = new System.Drawing.Size(357, 128);
+            this.picture_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picture_logo.TabIndex = 6;
+            this.picture_logo.TabStop = false;
+            this.picture_logo.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picture_logo);
             this.Controls.Add(this.lbl_cadastrar);
             this.Controls.Add(this.lbl_senha);
             this.Controls.Add(this.lbl_usuario);
@@ -123,7 +123,7 @@
             this.Controls.Add(this.btn_logar);
             this.Name = "Login";
             this.Text = "Login";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_logo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,7 +137,7 @@
         private System.Windows.Forms.Label lbl_usuario;
         private System.Windows.Forms.Label lbl_senha;
         private System.Windows.Forms.Label lbl_cadastrar;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picture_logo;
     }
 }
 

@@ -26,5 +26,10 @@ namespace Trabalho
         {
 
         }
+
+        private void btn_proximo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

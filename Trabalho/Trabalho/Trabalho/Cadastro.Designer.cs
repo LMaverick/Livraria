@@ -32,22 +32,22 @@
             this.lbl_usuarioCad = new System.Windows.Forms.Label();
             this.lbl_emailCad = new System.Windows.Forms.Label();
             this.lbl_senhaCad = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txtbox_usuariocad = new System.Windows.Forms.TextBox();
+            this.txtbox_emailcad = new System.Windows.Forms.TextBox();
+            this.txtbox_senhaCad = new System.Windows.Forms.TextBox();
+            this.txtbox_cep = new System.Windows.Forms.TextBox();
+            this.txtbox_endereco = new System.Windows.Forms.TextBox();
+            this.txtbox_numero = new System.Windows.Forms.TextBox();
+            this.txtbox_bairro = new System.Windows.Forms.TextBox();
+            this.txtbox_cidade = new System.Windows.Forms.TextBox();
+            this.txtbox_uf = new System.Windows.Forms.TextBox();
+            this.cbox_plano = new System.Windows.Forms.ComboBox();
+            this.checkbox_fretegratis = new System.Windows.Forms.CheckBox();
+            this.checkbox_fretepago = new System.Windows.Forms.CheckBox();
+            this.dtp_nascimento = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lbl_assinatura = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -56,13 +56,14 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_buscar = new System.Windows.Forms.Button();
+            this.btn_excluir = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lbl_login = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.checkbox_anual = new System.Windows.Forms.CheckBox();
+            this.mtxtbox_telefone = new System.Windows.Forms.MaskedTextBox();
+            this.btn_pesquisar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_salvar
@@ -70,7 +71,7 @@
             this.btn_salvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_salvar.Location = new System.Drawing.Point(34, 391);
             this.btn_salvar.Name = "btn_salvar";
-            this.btn_salvar.Size = new System.Drawing.Size(353, 33);
+            this.btn_salvar.Size = new System.Drawing.Size(231, 33);
             this.btn_salvar.TabIndex = 0;
             this.btn_salvar.Text = "Salvar";
             this.btn_salvar.UseVisualStyleBackColor = true;
@@ -106,118 +107,118 @@
             this.lbl_senhaCad.TabIndex = 3;
             this.lbl_senhaCad.Text = "Senha:";
             // 
-            // textBox1
+            // txtbox_usuariocad
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(201, 42);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 29);
-            this.textBox1.TabIndex = 4;
+            this.txtbox_usuariocad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbox_usuariocad.Location = new System.Drawing.Point(201, 42);
+            this.txtbox_usuariocad.Name = "txtbox_usuariocad";
+            this.txtbox_usuariocad.Size = new System.Drawing.Size(170, 29);
+            this.txtbox_usuariocad.TabIndex = 4;
             // 
-            // textBox2
+            // txtbox_emailcad
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(125, 77);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(246, 29);
-            this.textBox2.TabIndex = 5;
+            this.txtbox_emailcad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbox_emailcad.Location = new System.Drawing.Point(125, 77);
+            this.txtbox_emailcad.Name = "txtbox_emailcad";
+            this.txtbox_emailcad.Size = new System.Drawing.Size(246, 29);
+            this.txtbox_emailcad.TabIndex = 5;
             // 
-            // textBox3
+            // txtbox_senhaCad
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(133, 112);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(238, 29);
-            this.textBox3.TabIndex = 6;
+            this.txtbox_senhaCad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbox_senhaCad.Location = new System.Drawing.Point(133, 112);
+            this.txtbox_senhaCad.Name = "txtbox_senhaCad";
+            this.txtbox_senhaCad.Size = new System.Drawing.Size(238, 29);
+            this.txtbox_senhaCad.TabIndex = 6;
             // 
-            // textBox4
+            // txtbox_cep
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(109, 268);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(245, 29);
-            this.textBox4.TabIndex = 7;
+            this.txtbox_cep.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbox_cep.Location = new System.Drawing.Point(109, 268);
+            this.txtbox_cep.Name = "txtbox_cep";
+            this.txtbox_cep.Size = new System.Drawing.Size(245, 29);
+            this.txtbox_cep.TabIndex = 7;
             // 
-            // textBox5
+            // txtbox_endereco
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(151, 310);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(401, 29);
-            this.textBox5.TabIndex = 8;
+            this.txtbox_endereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbox_endereco.Location = new System.Drawing.Point(151, 310);
+            this.txtbox_endereco.Name = "txtbox_endereco";
+            this.txtbox_endereco.Size = new System.Drawing.Size(401, 29);
+            this.txtbox_endereco.TabIndex = 8;
             // 
-            // textBox6
+            // txtbox_numero
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(658, 307);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 29);
-            this.textBox6.TabIndex = 9;
+            this.txtbox_numero.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbox_numero.Location = new System.Drawing.Point(658, 307);
+            this.txtbox_numero.Name = "txtbox_numero";
+            this.txtbox_numero.Size = new System.Drawing.Size(100, 29);
+            this.txtbox_numero.TabIndex = 9;
             // 
-            // textBox7
+            // txtbox_bairro
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(114, 353);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(269, 29);
-            this.textBox7.TabIndex = 10;
+            this.txtbox_bairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbox_bairro.Location = new System.Drawing.Point(114, 353);
+            this.txtbox_bairro.Name = "txtbox_bairro";
+            this.txtbox_bairro.Size = new System.Drawing.Size(269, 29);
+            this.txtbox_bairro.TabIndex = 10;
             // 
-            // textBox8
+            // txtbox_cidade
             // 
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(477, 353);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(145, 29);
-            this.textBox8.TabIndex = 11;
+            this.txtbox_cidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbox_cidade.Location = new System.Drawing.Point(477, 353);
+            this.txtbox_cidade.Name = "txtbox_cidade";
+            this.txtbox_cidade.Size = new System.Drawing.Size(145, 29);
+            this.txtbox_cidade.TabIndex = 11;
             // 
-            // textBox9
+            // txtbox_uf
             // 
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(695, 353);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(63, 29);
-            this.textBox9.TabIndex = 12;
+            this.txtbox_uf.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbox_uf.Location = new System.Drawing.Point(695, 353);
+            this.txtbox_uf.Name = "txtbox_uf";
+            this.txtbox_uf.Size = new System.Drawing.Size(63, 29);
+            this.txtbox_uf.TabIndex = 12;
             // 
-            // comboBox1
+            // cbox_plano
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(505, 55);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(259, 32);
-            this.comboBox1.TabIndex = 13;
-            this.comboBox1.Text = "Selecione";
+            this.cbox_plano.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbox_plano.FormattingEnabled = true;
+            this.cbox_plano.Location = new System.Drawing.Point(505, 55);
+            this.cbox_plano.Name = "cbox_plano";
+            this.cbox_plano.Size = new System.Drawing.Size(259, 32);
+            this.cbox_plano.TabIndex = 13;
+            this.cbox_plano.Text = "Selecione";
             // 
-            // checkBox1
+            // checkbox_fretegratis
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(497, 124);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(207, 28);
-            this.checkBox1.TabIndex = 14;
-            this.checkBox1.Text = "Grátis (5 dias úteis)";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkbox_fretegratis.AutoSize = true;
+            this.checkbox_fretegratis.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkbox_fretegratis.Location = new System.Drawing.Point(497, 124);
+            this.checkbox_fretegratis.Name = "checkbox_fretegratis";
+            this.checkbox_fretegratis.Size = new System.Drawing.Size(207, 28);
+            this.checkbox_fretegratis.TabIndex = 14;
+            this.checkbox_fretegratis.Text = "Grátis (5 dias úteis)";
+            this.checkbox_fretegratis.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // checkbox_fretepago
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(497, 147);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(197, 28);
-            this.checkBox2.TabIndex = 15;
-            this.checkBox2.Text = "R$ 5,99 (1 dia útil)";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkbox_fretepago.AutoSize = true;
+            this.checkbox_fretepago.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkbox_fretepago.Location = new System.Drawing.Point(497, 147);
+            this.checkbox_fretepago.Name = "checkbox_fretepago";
+            this.checkbox_fretepago.Size = new System.Drawing.Size(197, 28);
+            this.checkbox_fretepago.TabIndex = 15;
+            this.checkbox_fretepago.Text = "R$ 5,99 (1 dia útil)";
+            this.checkbox_fretepago.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
+            // dtp_nascimento
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(254, 150);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(117, 26);
-            this.dateTimePicker1.TabIndex = 20;
+            this.dtp_nascimento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_nascimento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtp_nascimento.Location = new System.Drawing.Point(254, 150);
+            this.dtp_nascimento.Name = "dtp_nascimento";
+            this.dtp_nascimento.Size = new System.Drawing.Size(117, 26);
+            this.dtp_nascimento.TabIndex = 20;
             // 
             // label1
             // 
@@ -240,16 +241,16 @@
             this.label2.Text = "Endereço Para Entregas:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // lbl_assinatura
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(528, 18);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 24);
-            this.label3.TabIndex = 23;
-            this.label3.Text = "Assinatura";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.lbl_assinatura.AutoSize = true;
+            this.lbl_assinatura.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_assinatura.Location = new System.Drawing.Point(528, 18);
+            this.lbl_assinatura.Name = "lbl_assinatura";
+            this.lbl_assinatura.Size = new System.Drawing.Size(107, 24);
+            this.lbl_assinatura.TabIndex = 23;
+            this.lbl_assinatura.Text = "Assinatura";
+            this.lbl_assinatura.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -332,25 +333,25 @@
             this.label11.TabIndex = 31;
             this.label11.Text = "Data de Nascimento:";
             // 
-            // button1
+            // btn_buscar
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(360, 264);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 29);
-            this.button1.TabIndex = 32;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_buscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_buscar.Location = new System.Drawing.Point(360, 264);
+            this.btn_buscar.Name = "btn_buscar";
+            this.btn_buscar.Size = new System.Drawing.Size(111, 29);
+            this.btn_buscar.TabIndex = 32;
+            this.btn_buscar.Text = "Buscar";
+            this.btn_buscar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_excluir
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(393, 391);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(371, 33);
-            this.button2.TabIndex = 33;
-            this.button2.Text = "Excluir";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_excluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_excluir.Location = new System.Drawing.Point(505, 391);
+            this.btn_excluir.Name = "btn_excluir";
+            this.btn_excluir.Size = new System.Drawing.Size(259, 33);
+            this.btn_excluir.TabIndex = 33;
+            this.btn_excluir.Text = "Excluir";
+            this.btn_excluir.UseVisualStyleBackColor = true;
             // 
             // label12
             // 
@@ -362,15 +363,15 @@
             this.label12.TabIndex = 35;
             this.label12.Text = "Telefone:";
             // 
-            // label13
+            // lbl_login
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(160, 9);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(62, 24);
-            this.label13.TabIndex = 36;
-            this.label13.Text = "Login";
+            this.lbl_login.AutoSize = true;
+            this.lbl_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_login.Location = new System.Drawing.Point(160, 9);
+            this.lbl_login.Name = "lbl_login";
+            this.lbl_login.Size = new System.Drawing.Size(62, 24);
+            this.lbl_login.TabIndex = 36;
+            this.lbl_login.Text = "Login";
             // 
             // label14
             // 
@@ -382,38 +383,49 @@
             this.label14.TabIndex = 37;
             this.label14.Text = "Cobrança Anual?:";
             // 
-            // checkBox3
+            // checkbox_anual
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(605, 90);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(64, 28);
-            this.checkBox3.TabIndex = 38;
-            this.checkBox3.Text = "Sim";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkbox_anual.AutoSize = true;
+            this.checkbox_anual.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkbox_anual.Location = new System.Drawing.Point(605, 90);
+            this.checkbox_anual.Name = "checkbox_anual";
+            this.checkbox_anual.Size = new System.Drawing.Size(64, 28);
+            this.checkbox_anual.TabIndex = 38;
+            this.checkbox_anual.Text = "Sim";
+            this.checkbox_anual.UseVisualStyleBackColor = true;
             // 
-            // maskedTextBox1
+            // mtxtbox_telefone
             // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(596, 263);
-            this.maskedTextBox1.Mask = "(__) _____-____";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(161, 29);
-            this.maskedTextBox1.TabIndex = 39;
+            this.mtxtbox_telefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mtxtbox_telefone.Location = new System.Drawing.Point(596, 263);
+            this.mtxtbox_telefone.Mask = "(__) _____-____";
+            this.mtxtbox_telefone.Name = "mtxtbox_telefone";
+            this.mtxtbox_telefone.Size = new System.Drawing.Size(161, 29);
+            this.mtxtbox_telefone.TabIndex = 39;
+            // 
+            // btn_pesquisar
+            // 
+            this.btn_pesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_pesquisar.Location = new System.Drawing.Point(271, 391);
+            this.btn_pesquisar.Name = "btn_pesquisar";
+            this.btn_pesquisar.Size = new System.Drawing.Size(228, 33);
+            this.btn_pesquisar.TabIndex = 40;
+            this.btn_pesquisar.Text = "Pesquisar";
+            this.btn_pesquisar.UseVisualStyleBackColor = true;
             // 
             // Cadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.btn_pesquisar);
+            this.Controls.Add(this.mtxtbox_telefone);
+            this.Controls.Add(this.checkbox_anual);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
+            this.Controls.Add(this.lbl_login);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_excluir);
+            this.Controls.Add(this.btn_buscar);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -422,22 +434,22 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lbl_assinatura);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.dtp_nascimento);
+            this.Controls.Add(this.checkbox_fretepago);
+            this.Controls.Add(this.checkbox_fretegratis);
+            this.Controls.Add(this.cbox_plano);
+            this.Controls.Add(this.txtbox_uf);
+            this.Controls.Add(this.txtbox_cidade);
+            this.Controls.Add(this.txtbox_bairro);
+            this.Controls.Add(this.txtbox_numero);
+            this.Controls.Add(this.txtbox_endereco);
+            this.Controls.Add(this.txtbox_cep);
+            this.Controls.Add(this.txtbox_senhaCad);
+            this.Controls.Add(this.txtbox_emailcad);
+            this.Controls.Add(this.txtbox_usuariocad);
             this.Controls.Add(this.lbl_senhaCad);
             this.Controls.Add(this.lbl_emailCad);
             this.Controls.Add(this.lbl_usuarioCad);
@@ -456,22 +468,22 @@
         private System.Windows.Forms.Label lbl_usuarioCad;
         private System.Windows.Forms.Label lbl_emailCad;
         private System.Windows.Forms.Label lbl_senhaCad;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox txtbox_usuariocad;
+        private System.Windows.Forms.TextBox txtbox_emailcad;
+        private System.Windows.Forms.TextBox txtbox_senhaCad;
+        private System.Windows.Forms.TextBox txtbox_cep;
+        private System.Windows.Forms.TextBox txtbox_endereco;
+        private System.Windows.Forms.TextBox txtbox_numero;
+        private System.Windows.Forms.TextBox txtbox_bairro;
+        private System.Windows.Forms.TextBox txtbox_cidade;
+        private System.Windows.Forms.TextBox txtbox_uf;
+        private System.Windows.Forms.ComboBox cbox_plano;
+        private System.Windows.Forms.CheckBox checkbox_fretegratis;
+        private System.Windows.Forms.CheckBox checkbox_fretepago;
+        private System.Windows.Forms.DateTimePicker dtp_nascimento;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbl_assinatura;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
@@ -480,12 +492,13 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_buscar;
+        private System.Windows.Forms.Button btn_excluir;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lbl_login;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.CheckBox checkbox_anual;
+        private System.Windows.Forms.MaskedTextBox mtxtbox_telefone;
+        private System.Windows.Forms.Button btn_pesquisar;
     }
 }
