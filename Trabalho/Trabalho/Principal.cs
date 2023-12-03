@@ -96,9 +96,24 @@ namespace Trabalho
                 id--;
             }
 
-            Double[] Setembro = {  };
-            Double[] Outubro = {  };
-            Double[] Novembro = {  };
+            // Criar uma instância da classe Random
+            Random random = new Random();
+
+            // Gerar números aleatórios entre 0 e 100
+            double valorSetembro = random.NextDouble() * 100;
+            double valorOutubro = random.NextDouble() * 100;
+            double valorNovembro = random.NextDouble() * 100;
+
+            // Atribuir os valores gerados aos arrays
+            double[] Setembro = { valorSetembro };
+            double[] Outubro = { valorOutubro };
+            double[] Novembro = { valorNovembro };
+
+            // Atribuir os valores aos pontos do gráfico
+            chart1.Series[0].Points[0].YValues = Setembro;
+            chart1.Series[0].Points[1].YValues = Outubro;
+            chart1.Series[0].Points[2].YValues = Novembro;
+
 
             if (id == 1)
             {
@@ -117,12 +132,7 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 42;
-                Outubro[0] = 43;
-                Novembro[0] = 22;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
+              
 
 
             }
@@ -145,12 +155,6 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0]= 32;
-                Outubro[0] = 33;
-                Novembro[0]= 56;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
 
             }
             if (id == 3)
@@ -171,12 +175,6 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 44;
-                Outubro[0] = 22;
-                Novembro[0] = 55;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
 
             }
             if (id == 4)
@@ -197,12 +195,7 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 45;
-                Outubro[0] = 55;
-                Novembro[0] = 55;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
+              
 
             }
             if (id == 5 )
@@ -223,12 +216,7 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 5;
-                Outubro[0] = 10;
-                Novembro[0] = 40;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
+                
 
             }
             if (id == 6)
@@ -249,12 +237,7 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] =34 ;
-                Outubro[0] = 67;
-                Novembro[0] =45 ;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
+                
 
             }
             if (id == 7)
@@ -272,15 +255,10 @@ namespace Trabalho
                 txt_categoria.Items.Clear();
                 txt_categoria.Items.AddRange(categoria);
                 txt_capitulo.Items.Clear();
+                txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 81;
-                Outubro[0] =39 ;
-                Novembro[0] = 05;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
-                txt_capitulo.Items.AddRange(capitulo);
+               
 
             }
             if (id == 8
@@ -302,12 +280,7 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 49;
-                Outubro[0] =59 ;
-                Novembro[0] =38 ;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
+                
 
             }
             if (id == 9)
@@ -328,12 +301,7 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 37;
-                Outubro[0] = 45;
-                Novembro[0] = 27;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
+                
 
             }
             if (id == 10)
@@ -354,12 +322,7 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 26;
-                Outubro[0] = 37;
-                Novembro[0] =48 ;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
+                
             }
 
             
@@ -376,9 +339,25 @@ namespace Trabalho
                 id++;
             }
 
-            Double[] Setembro = { };
-            Double[] Outubro = { };
-            Double[] Novembro = { };
+
+            // Criar uma instância da classe Random
+            Random random = new Random();
+
+            // Gerar números aleatórios entre 0 e 100
+            double valorSetembro = random.NextDouble() * 100;
+            double valorOutubro = random.NextDouble() * 100;
+            double valorNovembro = random.NextDouble() * 100;
+
+            // Atribuir os valores gerados aos arrays
+            double[] Setembro = { valorSetembro };
+            double[] Outubro = { valorOutubro };
+            double[] Novembro = { valorNovembro };
+
+            // Atribuir os valores aos pontos do gráfico
+            chart1.Series[0].Points[0].YValues = Setembro;
+            chart1.Series[0].Points[1].YValues = Outubro;
+            chart1.Series[0].Points[2].YValues = Novembro;
+
 
             if (id == 1)
             {
@@ -397,7 +376,7 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                
+
 
 
             }
@@ -420,12 +399,6 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 32;
-                Outubro[0] = 33;
-                Novembro[0] = 56;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
 
             }
             if (id == 3)
@@ -446,12 +419,6 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 44;
-                Outubro[0] = 22;
-                Novembro[0] = 55;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
 
             }
             if (id == 4)
@@ -472,12 +439,7 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 45;
-                Outubro[0] = 55;
-                Novembro[0] = 55;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
+
 
             }
             if (id == 5)
@@ -498,12 +460,7 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 5;
-                Outubro[0] = 10;
-                Novembro[0] = 40;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
+
 
             }
             if (id == 6)
@@ -524,12 +481,7 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 34;
-                Outubro[0] = 67;
-                Novembro[0] = 45;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
+
 
             }
             if (id == 7)
@@ -547,15 +499,10 @@ namespace Trabalho
                 txt_categoria.Items.Clear();
                 txt_categoria.Items.AddRange(categoria);
                 txt_capitulo.Items.Clear();
+                txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 81;
-                Outubro[0] = 39;
-                Novembro[0] = 05;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
-                txt_capitulo.Items.AddRange(capitulo);
+
 
             }
             if (id == 8
@@ -577,12 +524,7 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 49;
-                Outubro[0] = 59;
-                Novembro[0] = 38;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
+
 
             }
             if (id == 9)
@@ -603,12 +545,7 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 37;
-                Outubro[0] = 45;
-                Novembro[0] = 27;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
+
 
             }
             if (id == 10)
@@ -629,12 +566,7 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 26;
-                Outubro[0] = 37;
-                Novembro[0] = 48;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
+
             }
 
 
