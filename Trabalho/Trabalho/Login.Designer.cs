@@ -42,7 +42,7 @@
             // btn_logar
             // 
             this.btn_logar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_logar.Location = new System.Drawing.Point(294, 279);
+            this.btn_logar.Location = new System.Drawing.Point(294, 343);
             this.btn_logar.Name = "btn_logar";
             this.btn_logar.Size = new System.Drawing.Size(217, 33);
             this.btn_logar.TabIndex = 0;
@@ -53,7 +53,7 @@
             // txtbox_usuario
             // 
             this.txtbox_usuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbox_usuario.Location = new System.Drawing.Point(383, 179);
+            this.txtbox_usuario.Location = new System.Drawing.Point(383, 243);
             this.txtbox_usuario.Name = "txtbox_usuario";
             this.txtbox_usuario.Size = new System.Drawing.Size(128, 29);
             this.txtbox_usuario.TabIndex = 1;
@@ -62,7 +62,7 @@
             // txtbox_senha
             // 
             this.txtbox_senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbox_senha.Location = new System.Drawing.Point(372, 219);
+            this.txtbox_senha.Location = new System.Drawing.Point(372, 283);
             this.txtbox_senha.Name = "txtbox_senha";
             this.txtbox_senha.Size = new System.Drawing.Size(139, 29);
             this.txtbox_senha.TabIndex = 2;
@@ -71,7 +71,7 @@
             // 
             this.lbl_usuario.AutoSize = true;
             this.lbl_usuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_usuario.Location = new System.Drawing.Point(290, 182);
+            this.lbl_usuario.Location = new System.Drawing.Point(290, 246);
             this.lbl_usuario.Name = "lbl_usuario";
             this.lbl_usuario.Size = new System.Drawing.Size(87, 24);
             this.lbl_usuario.TabIndex = 3;
@@ -81,7 +81,7 @@
             // 
             this.lbl_senha.AutoSize = true;
             this.lbl_senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_senha.Location = new System.Drawing.Point(290, 224);
+            this.lbl_senha.Location = new System.Drawing.Point(290, 288);
             this.lbl_senha.Name = "lbl_senha";
             this.lbl_senha.Size = new System.Drawing.Size(76, 24);
             this.lbl_senha.TabIndex = 4;
@@ -93,7 +93,7 @@
             this.lbl_cadastrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_cadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_cadastrar.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lbl_cadastrar.Location = new System.Drawing.Point(326, 327);
+            this.lbl_cadastrar.Location = new System.Drawing.Point(326, 391);
             this.lbl_cadastrar.Name = "lbl_cadastrar";
             this.lbl_cadastrar.Size = new System.Drawing.Size(174, 16);
             this.lbl_cadastrar.TabIndex = 5;
@@ -104,9 +104,9 @@
             // 
             this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(241, 27);
+            this.pictureBox1.Location = new System.Drawing.Point(294, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(357, 128);
+            this.pictureBox1.Size = new System.Drawing.Size(217, 217);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;

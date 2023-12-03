@@ -20,9 +20,6 @@ namespace Trabalho
     public partial class Principal : Form
     {
         int id = 1;
-        int setembro = 0;
-        int outubro = 0;
-        int novembro = 0;
         public Principal()
         {
             InitializeComponent();
@@ -361,8 +358,8 @@ namespace Trabalho
                 chart1.Series[0].Points[1].YValues = Outubro;
                 chart1.Series[0].Points[2].YValues = Novembro;
             }
-            
 
+            
         }
 
         private void btn_prox_Click(object sender, EventArgs e)
@@ -375,7 +372,6 @@ namespace Trabalho
             {
                 id++;
             }
-
 
             if (id == 1)
             {
@@ -638,12 +634,6 @@ namespace Trabalho
                 chart1.Series[0].Points[1].YValues = Outubro;
                 chart1.Series[0].Points[2].YValues = Novembro;
             }
-
-
-
-
-
-
 
         }
 
