@@ -397,12 +397,7 @@ namespace Trabalho
                 txt_capitulo.Items.AddRange(capitulo);
                 checkBox1.Checked = false;
 
-                Setembro[0] = 42;
-                Outubro[0] = 43;
-                Novembro[0] = 22;
-                chart1.Series[0].Points[0].YValues = Setembro;
-                chart1.Series[0].Points[1].YValues = Outubro;
-                chart1.Series[0].Points[2].YValues = Novembro;
+                
 
 
             }
