@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,21 +45,21 @@
             this.entregaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.txt_titulo = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.txt_sinopse = new System.Windows.Forms.ListBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.txt_categoria = new System.Windows.Forms.ListBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_ant = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.txt_capitulo = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_prox = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -175,15 +175,15 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // label1
+            // txt_titulo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(212, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(342, 37);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "FOCO E DISCIPLINA";
+            this.txt_titulo.AutoSize = true;
+            this.txt_titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_titulo.Location = new System.Drawing.Point(212, 24);
+            this.txt_titulo.Name = "txt_titulo";
+            this.txt_titulo.Size = new System.Drawing.Size(342, 37);
+            this.txt_titulo.TabIndex = 2;
+            this.txt_titulo.Text = "FOCO E DISCIPLINA";
             // 
             // label2
             // 
@@ -196,18 +196,18 @@
             this.label2.Text = "SINOPSE: ";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // listBox1
+            // txt_sinopse
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
+            this.txt_sinopse.FormattingEnabled = true;
+            this.txt_sinopse.Items.AddRange(new object[] {
             "Como o foco e disciplina influência na vida de uma pessoa,",
             "muitas pessoas pensam e pensam que ter muito foco as ",
             "ajudariam a conquistar as melhores coisas da vida, o quanto ",
             "disso é verdade?"});
-            this.listBox1.Location = new System.Drawing.Point(260, 78);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(294, 82);
-            this.listBox1.TabIndex = 5;
+            this.txt_sinopse.Location = new System.Drawing.Point(260, 78);
+            this.txt_sinopse.Name = "txt_sinopse";
+            this.txt_sinopse.Size = new System.Drawing.Size(294, 82);
+            this.txt_sinopse.TabIndex = 5;
             // 
             // label4
             // 
@@ -219,15 +219,15 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "CATEGORIAS:";
             // 
-            // listBox2
+            // txt_categoria
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Items.AddRange(new object[] {
+            this.txt_categoria.FormattingEnabled = true;
+            this.txt_categoria.Items.AddRange(new object[] {
             "Ação, Mistério, Aventura, Suspense"});
-            this.listBox2.Location = new System.Drawing.Point(284, 193);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(248, 17);
-            this.listBox2.TabIndex = 7;
+            this.txt_categoria.Location = new System.Drawing.Point(284, 193);
+            this.txt_categoria.Name = "txt_categoria";
+            this.txt_categoria.Size = new System.Drawing.Size(248, 17);
+            this.txt_categoria.TabIndex = 7;
             // 
             // radioButton1
             // 
@@ -262,16 +262,16 @@
             // 
             // chart1
             // 
-            chartArea8.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea8);
-            legend8.Name = "Legend1";
-            this.chart1.Legends.Add(legend8);
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
             this.chart1.Location = new System.Drawing.Point(538, 171);
             this.chart1.Name = "chart1";
-            series8.ChartArea = "ChartArea1";
-            series8.Legend = "Legend1";
-            series8.Name = "Series1";
-            this.chart1.Series.Add(series8);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chart1.Series.Add(series2);
             this.chart1.Size = new System.Drawing.Size(232, 198);
             this.chart1.TabIndex = 11;
             this.chart1.Text = "chart1";
@@ -281,16 +281,17 @@
             this.openFileDialog1.FileName = "openFileDialog1";
             this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
-            // button1
+            // btn_ant
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(284, 394);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(240, 44);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "<-- Ver Anterior";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_ant.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btn_ant.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ant.Location = new System.Drawing.Point(284, 394);
+            this.btn_ant.Name = "btn_ant";
+            this.btn_ant.Size = new System.Drawing.Size(240, 44);
+            this.btn_ant.TabIndex = 12;
+            this.btn_ant.Text = "<-- Ver Anterior";
+            this.btn_ant.UseVisualStyleBackColor = true;
+            this.btn_ant.Click += new System.EventHandler(this.btn_ant_Click);
             // 
             // checkBox1
             // 
@@ -303,20 +304,20 @@
             this.checkBox1.Text = "Quero Esse Livro!";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // listBox3
+            // txt_capitulo
             // 
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.Items.AddRange(new object[] {
+            this.txt_capitulo.FormattingEnabled = true;
+            this.txt_capitulo.Items.AddRange(new object[] {
             "Capítulo 1: Preparando o ciclo de sofrimento",
             "Capítulo 2: Alex o Insuportável, Mia a Apaixonada ",
             "e Arthur o Vidente",
             "Capítulo 3: Desastre natural",
             "Capítulo 4: O Fim mutável? E a mudança drástica!",
             "EXTRA: Alex o rei do mundo"});
-            this.listBox3.Location = new System.Drawing.Point(284, 230);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(248, 95);
-            this.listBox3.TabIndex = 15;
+            this.txt_capitulo.Location = new System.Drawing.Point(284, 230);
+            this.txt_capitulo.Name = "txt_capitulo";
+            this.txt_capitulo.Size = new System.Drawing.Size(248, 95);
+            this.txt_capitulo.TabIndex = 15;
             // 
             // label3
             // 
@@ -327,15 +328,16 @@
             this.label3.TabIndex = 14;
             this.label3.Text = "CAPÍTULOS:";
             // 
-            // button2
+            // btn_prox
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(538, 394);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(232, 44);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "Ver Próximo ->";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_prox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_prox.Location = new System.Drawing.Point(538, 394);
+            this.btn_prox.Name = "btn_prox";
+            this.btn_prox.Size = new System.Drawing.Size(232, 44);
+            this.btn_prox.TabIndex = 16;
+            this.btn_prox.Text = "Ver Próximo ->";
+            this.btn_prox.UseVisualStyleBackColor = true;
+            this.btn_prox.Click += new System.EventHandler(this.btn_prox_Click);
             // 
             // label5
             // 
@@ -353,20 +355,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.listBox3);
+            this.Controls.Add(this.btn_prox);
+            this.Controls.Add(this.txt_capitulo);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_ant);
             this.Controls.Add(this.chart1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.listBox2);
+            this.Controls.Add(this.txt_categoria);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.txt_sinopse);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txt_titulo);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -397,21 +399,21 @@
         private System.Windows.Forms.ToolStripMenuItem entregaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label txt_titulo;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox txt_sinopse;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.ListBox txt_categoria;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_ant;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.ListBox txt_capitulo;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_prox;
         private System.Windows.Forms.Label label5;
     }
 }

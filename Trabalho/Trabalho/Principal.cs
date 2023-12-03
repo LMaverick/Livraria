@@ -16,6 +16,7 @@ namespace Trabalho
 {
     public partial class Principal : Form
     {
+        int id = 1;
         public Principal()
         {
             InitializeComponent();
@@ -79,6 +80,82 @@ namespace Trabalho
         private void entregaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Nenhum livro em rota de entrega no momento");
+        }
+
+        private void btn_ant_Click(object sender, EventArgs e)
+        {
+            if (id < 1)
+            {
+                id = 10;
+            }
+            else
+            {
+                id--;
+            }
+            
+            if(id == 1)
+            {
+                string img = "teste";
+                string titulo = "Foco e Disciplinaaa";
+                string sinopse = "teste";
+                string categoria = "teste";
+                string capitulo = "teste";
+
+                txt_titulo.Text = titulo;
+                txt_sinopse.Text = sinopse;
+                txt_categoria.Text = categoria;
+                txt_capitulo.Text = capitulo;
+            }
+            if (id == 10)
+            {
+                string img = "teste";
+                string titulo = "Disciplinaaa";
+                string sinopse = "teste";
+                string categoria = "teste";
+                string capitulo = "teste";
+
+                txt_titulo.Text = titulo;
+                txt_sinopse.Items.Clear();
+                txt_sinopse.Items.Add(sinopse);
+                txt_categoria.Items.Clear();
+                txt_categoria.Items.Add(categoria);
+                txt_capitulo.Items.Clear();
+                txt_capitulo.Items.Add(capitulo);
+
+
+            }
+            if (id == 0)
+            {
+                string img = "testeaf";
+                string titulo = "Foco";
+                string sinopse = "testeaf";
+                string categoria = "testeaf";
+                string capitulo = "testeaf";
+
+                txt_titulo.Text = titulo;
+                txt_sinopse.Items.Clear();
+                txt_sinopse.Items.Add(sinopse);
+                txt_categoria.Items.Clear();
+                txt_categoria.Items.Add(categoria);
+                txt_capitulo.Items.Clear();
+                txt_capitulo.Items.Add(capitulo);
+            }
+
+
+
+
+        }
+
+        private void btn_prox_Click(object sender, EventArgs e)
+        {
+            if (id > 10)
+            {
+                id = 1;
+            }
+            else
+            {
+                id++;
+            }
         }
     }
 }
