@@ -46,3 +46,5 @@ Segurança: As transações online são seguras, proporcionando tranquilidade ao
 
 == Conclusão:
 O desenvolvimento deste aplicativo demonstra como a programação em C# e o uso do Visual Studio podem criar soluções inovadoras para atender às necessidades do mercado. O foco na praticidade, segurança e benefícios para o usuário torna este aplicativo uma ferramenta valiosa para os amantes da leitura, proporcionando uma experiência de compra online eficiente e agradável. Este projeto destaca a importância de combinar tecnologia e praticidade para criar soluções que melhoram a vida cotidiana.
+
+Link no Github: https://github.com/LMaverick/Livraria
