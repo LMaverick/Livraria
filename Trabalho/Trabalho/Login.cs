@@ -59,7 +59,7 @@ namespace Trabalho
             catch (Exception)
             {
                 nome = txtbox_usuario.Text;
-                MessageBox.Show("Bem-vindo!",nome);
+                MessageBox.Show("Bem-vindo!");
                 this.Hide();
                 new Principal().Show();
             }
