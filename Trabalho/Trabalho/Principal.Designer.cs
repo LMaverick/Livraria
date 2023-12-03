@@ -28,10 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -61,6 +62,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btn_prox = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -96,34 +98,34 @@
             this.editarToolStripMenuItem,
             this.editarAssinaturaToolStripMenuItem});
             this.usuáriosToolStripMenuItem.Name = "usuáriosToolStripMenuItem";
-            this.usuáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.usuáriosToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.usuáriosToolStripMenuItem.Text = "Usuários";
             // 
             // criarNovoToolStripMenuItem
             // 
             this.criarNovoToolStripMenuItem.Name = "criarNovoToolStripMenuItem";
-            this.criarNovoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.criarNovoToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.criarNovoToolStripMenuItem.Text = "Criar Novo";
             this.criarNovoToolStripMenuItem.Click += new System.EventHandler(this.criarNovoToolStripMenuItem_Click);
             // 
             // editarToolStripMenuItem
             // 
             this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
-            this.editarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editarToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.editarToolStripMenuItem.Text = "Editar";
             this.editarToolStripMenuItem.Click += new System.EventHandler(this.editarToolStripMenuItem_Click);
             // 
             // editarAssinaturaToolStripMenuItem
             // 
             this.editarAssinaturaToolStripMenuItem.Name = "editarAssinaturaToolStripMenuItem";
-            this.editarAssinaturaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editarAssinaturaToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.editarAssinaturaToolStripMenuItem.Text = "Editar Assinatura";
             this.editarAssinaturaToolStripMenuItem.Click += new System.EventHandler(this.editarAssinaturaToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
@@ -140,21 +142,21 @@
             // livrosDaSemanaToolStripMenuItem
             // 
             this.livrosDaSemanaToolStripMenuItem.Name = "livrosDaSemanaToolStripMenuItem";
-            this.livrosDaSemanaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.livrosDaSemanaToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.livrosDaSemanaToolStripMenuItem.Text = "Livros da Semana";
             this.livrosDaSemanaToolStripMenuItem.Click += new System.EventHandler(this.livrosDaSemanaToolStripMenuItem_Click);
             // 
             // meusLivrosToolStripMenuItem
             // 
             this.meusLivrosToolStripMenuItem.Name = "meusLivrosToolStripMenuItem";
-            this.meusLivrosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.meusLivrosToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.meusLivrosToolStripMenuItem.Text = "Meus Livros";
             this.meusLivrosToolStripMenuItem.Click += new System.EventHandler(this.meusLivrosToolStripMenuItem_Click);
             // 
             // entregaToolStripMenuItem
             // 
             this.entregaToolStripMenuItem.Name = "entregaToolStripMenuItem";
-            this.entregaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.entregaToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.entregaToolStripMenuItem.Text = "Entrega";
             this.entregaToolStripMenuItem.Click += new System.EventHandler(this.entregaToolStripMenuItem_Click);
             // 
@@ -262,16 +264,16 @@
             // 
             // chart1
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
+            chartArea3.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chart1.Legends.Add(legend3);
             this.chart1.Location = new System.Drawing.Point(538, 171);
             this.chart1.Name = "chart1";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chart1.Series.Add(series2);
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chart1.Series.Add(series3);
             this.chart1.Size = new System.Drawing.Size(232, 198);
             this.chart1.TabIndex = 11;
             this.chart1.Text = "chart1";
@@ -349,6 +351,26 @@
             this.label5.TabIndex = 17;
             this.label5.Text = "Popularidade:";
             // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "O livro maldito Creepypastas macabras e contos de terror.jpg");
+            this.imageList1.Images.SetKeyName(1, "foco e disciplina.jpg");
+            this.imageList1.Images.SetKeyName(2, "Caverna do Dragão Dungeons Dragons Aventuras de Sábado pela Manhã.jpg");
+            this.imageList1.Images.SetKeyName(3, "É Assim que Acaba1.jpg");
+            this.imageList1.Images.SetKeyName(4, "Entre as chamas, sob a água.jpg");
+            this.imageList1.Images.SetKeyName(5, "Eu sei o que vocês fizeram no verão passadoAlguns segredos não poderão ser esquec" +
+        "idos.jpg");
+            this.imageList1.Images.SetKeyName(6, "Harry Potter e o Prisioneiro de Azkaban3.jpg");
+            this.imageList1.Images.SetKeyName(7, "Medo Imortal.jpg");
+            this.imageList1.Images.SetKeyName(8, "O gato que amava livros.jpg");
+            this.imageList1.Images.SetKeyName(9, "percyjackson.jpg");
+            this.imageList1.Images.SetKeyName(10, "Todas as suas (im)perfeições.jpg");
+            this.imageList1.Images.SetKeyName(11, "Não quero ser como você.jpg");
+            this.imageList1.Images.SetKeyName(12, "O café da praia Uma receita para o desastre ou uma receita para o amor.jpg");
+            this.imageList1.Images.SetKeyName(13, "Contos clássicos de terror.jpg");
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -415,5 +437,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btn_prox;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }
