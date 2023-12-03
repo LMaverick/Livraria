@@ -1,0 +1,48 @@
+== BOOKSOTRE ATENA LIVRARIA == 
+
+== Integrantes:
+
+Midian Karen Oliveira Neri RA: 923106600
+Kauê de Sousa Lima RA: 923110268
+Lucas Matheus Manco da Silva RA: 923106314
+Giovanni de Souza Ferreira RA: 923109851
+Railan Lima Fontana RA: 923110589
+Jhenifer Aparecida Calvi Feitoza RA: 3623100107
+Guilherme da Silva RA: 922203013
+
+
+
+== APRESENTAÇÃO == 
+
+== Introdução:
+No cenário atual, a tecnologia desempenha um papel fundamental na otimização de processos e na criação de soluções que facilitam a vida cotidiana. Nesse contexto, o desenvolvimento de aplicativos torna-se uma ferramenta valiosa para proporcionar comodidade aos usuários. Essa aplicação destaca um projeto realizado em C# no Visual Studio, focado na criação de um aplicativo de compra de livros online para uma livraria fictícia.
+
+== Objetivo do Projeto:
+O objetivo principal do projeto foi desenvolver um aplicativo eficiente e fácil de usar, que permitisse aos usuários comprar livros com praticidade, além de oferecer a opção de receber os produtos em casa. O aplicativo também apresenta um modelo de assinatura anual com desconto, visando fidelizar os clientes.
+
+== Tecnologias Utilizadas:
+O desenvolvimento do aplicativo foi realizado utilizando a linguagem de programação C# no ambiente de desenvolvimento Visual Studio. A escolha dessas ferramentas foi baseada na robustez e flexibilidade que oferecem, garantindo uma programação eficiente e uma interface amigável para os usuários.
+
+== Funcionalidades do Aplicativo:
+
+Catálogo de Livros: O aplicativo conta com um extenso catálogo de livros, organizado por gênero, autor e outros filtros, facilitando a busca pelos usuários.
+
+Compra Online: Os usuários podem escolher os livros desejados e realizar a compra de forma segura, utilizando métodos de pagamento integrados.
+
+Entrega em Casa: Uma das principais funcionalidades é a opção de entrega em casa. Os usuários podem fornecer seu endereço e agendar a entrega dos livros adquiridos no momento da compra.
+
+Assinatura Anual: O aplicativo oferece um plano de assinatura anual com desconto, proporcionando aos usuários uma maneira econômica de adquirir livros ao longo do ano.
+
+== Desenvolvimento do Banco de Dados:
+Para armazenar e gerenciar informações cruciais, como detalhes dos livros, informações de clientes, histórico de compras e status de entrega, foi implementado um banco de dados robusto. A integração do aplicativo com o banco de dados garante a eficiência e a segurança no processamento das informações.
+
+== Benefícios para os Usuários:
+
+Praticidade: Os usuários podem comprar livros sem sair de casa, economizando tempo e esforço.
+
+Economia: O plano de assinatura anual oferece descontos significativos, incentivando a fidelidade dos clientes.
+
+Segurança: As transações online são seguras, proporcionando tranquilidade aos usuários durante o processo de compra.
+
+== Conclusão:
+O desenvolvimento deste aplicativo demonstra como a programação em C# e o uso do Visual Studio podem criar soluções inovadoras para atender às necessidades do mercado. O foco na praticidade, segurança e benefícios para o usuário torna este aplicativo uma ferramenta valiosa para os amantes da leitura, proporcionando uma experiência de compra online eficiente e agradável. Este projeto destaca a importância de combinar tecnologia e praticidade para criar soluções que melhoram a vida cotidiana.
