@@ -57,6 +57,7 @@
             this.txtbox_usuario.Name = "txtbox_usuario";
             this.txtbox_usuario.Size = new System.Drawing.Size(128, 29);
             this.txtbox_usuario.TabIndex = 1;
+            this.txtbox_usuario.TextChanged += new System.EventHandler(this.txtbox_usuario_TextChanged);
             // 
             // txtbox_senha
             // 

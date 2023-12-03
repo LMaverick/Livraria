@@ -138,5 +138,11 @@ namespace Trabalho
 
             }
         }
+
+        private void btn_voltar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Login().Show();
+        }
     }
 }

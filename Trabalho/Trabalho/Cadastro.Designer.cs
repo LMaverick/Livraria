@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.Button btn_voltar;
             this.btn_salvar = new System.Windows.Forms.Button();
             this.lbl_usuarioCad = new System.Windows.Forms.Label();
             this.lbl_emailCad = new System.Windows.Forms.Label();
@@ -64,6 +65,7 @@
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            btn_voltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_salvar
@@ -416,11 +418,22 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // btn_voltar
+            // 
+            btn_voltar.Location = new System.Drawing.Point(12, 9);
+            btn_voltar.Name = "btn_voltar";
+            btn_voltar.Size = new System.Drawing.Size(32, 23);
+            btn_voltar.TabIndex = 40;
+            btn_voltar.Text = "<--";
+            btn_voltar.UseVisualStyleBackColor = true;
+            btn_voltar.Click += new System.EventHandler(this.btn_voltar_Click);
+            // 
             // Cadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(btn_voltar);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.label14);

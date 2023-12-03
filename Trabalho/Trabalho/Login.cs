@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
-
+using MySql;
 using MySql.Data;
 using MySql.Data.MySqlClient;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
@@ -58,7 +58,8 @@ namespace Trabalho
             }
             catch (Exception)
             {
-                MessageBox.Show("Bem-vindo",nome);
+                nome = txtbox_usuario.Text;
+                MessageBox.Show("Bem-vindo!",nome);
                 this.Hide();
                 new Principal().Show();
             }
@@ -85,6 +86,11 @@ namespace Trabalho
         {
             new Cadastro().Show();
             this.Hide();
+        }
+
+        private void txtbox_usuario_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
