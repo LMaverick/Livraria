@@ -106,41 +106,101 @@ namespace Trabalho
                 txt_categoria.Text = categoria;
                 txt_capitulo.Text = capitulo;
             }
+
             if (id == 10)
             {
                 string img = "teste";
-                string titulo = "Disciplinaaa";
-                string sinopse = "teste";
-                string categoria = "teste";
-                string capitulo = "teste";
+                string titulo = "Foco e Disciplinaaa";
+                string[] sinopse = { "Como o foco e disciplina influência na vida de uma pessoa,", "muitas pessoas pensam e pensam que ter muito foco as ", " ajudariam a conquistar as melhores coisas da vida, o quanto ", "disso é verdade?" };
+                string[] categoria = { "Ação, Mistério, Aventura, Suspense" };
+                string[] capitulo = { "Capítulo 1: Preparando o ciclo de sofrimento", "Capítulo 2: Alex o Insuportável, Mia a Apaixonada ", "ne Arthur o Vidente", "Capítulo 3: Desastre natural", "Capítulo 4: O Fim mutável? E a mudança drástica!", "EXTRA: Alex o rei do mundo" };
 
                 txt_titulo.Text = titulo;
                 txt_sinopse.Items.Clear();
-                txt_sinopse.Items.Add(sinopse);
+                txt_sinopse.Items.AddRange(sinopse);
                 txt_categoria.Items.Clear();
-                txt_categoria.Items.Add(categoria);
+                txt_categoria.Items.AddRange(categoria);
                 txt_capitulo.Items.Clear();
-                txt_capitulo.Items.Add(capitulo);
+                txt_capitulo.Items.AddRange(capitulo);
 
 
             }
-            if (id == 0)
+            
+            if (id == 2)
             {
-                string img = "testeaf";
-                string titulo = "Foco";
-                string sinopse = "testeaf";
-                string categoria = "testeaf";
-                string capitulo = "testeaf";
+                string img = "teste";
+                string titulo = "O café da praia";
 
-                txt_titulo.Text = titulo;
-                txt_sinopse.Items.Clear();
-                txt_sinopse.Items.Add(sinopse);
-                txt_categoria.Items.Clear();
-                txt_categoria.Items.Add(categoria);
-                txt_capitulo.Items.Clear();
-                txt_capitulo.Items.Add(capitulo);
+               
             }
 
+            if (id == 3)
+            {
+                string img = "teste";
+                string titulo = "Não quero ser como você";
+
+               
+            }
+
+            if (id == 4)
+            {
+                string img = "teste";
+                string titulo = "Medo imortal ";
+
+
+               
+            }
+
+            if (id == 5)
+            {
+                string img = "teste";
+                string titulo = "Harry Potter e o Prisioneiro de Azkaban";
+
+
+                
+            }
+
+            if (id == 6)
+            {
+                string img = "teste";
+                string titulo = "Eu Sei O Que Vocês Fizeram no Verão Passado";
+
+                
+            }
+
+            if (id == 7)
+            {
+                string img = "teste";
+                string titulo = "Entre as chamas sob a água";
+
+
+                
+            }
+
+            if (id == 8)
+            {
+                string img = "teste";
+                string titulo = "É assim que acaba - Colleen Hoover ";
+
+
+               
+            }
+
+            if (id == 9)
+            {
+                string img = "teste";
+                string titulo = "CAVERNA DO DRAGÃO";
+
+
+                
+            }
+
+            if (id == 10)
+            {
+                string img = "teste";
+                string titulo = "O gato que amava livros";
+
+            }
 
 
 
